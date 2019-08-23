@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="keywords" content="creations, designs, diy, chevere, crafts" />
+	<meta name="description" content="Chevere Creations & Studio home page" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+ 
+	<!--
+	   New Perspectives on HTML5 and CSS3, 7th Edition
+	   V1 Peer Review
+	   
+	   Chevere Creations & Studio Home Page
+	   Author: Patricia Chevere for CIS155
+	   Date:   21 Aug 2019
+	   
+	   Filename: ccs_home.html
+	   -->
+	   
+	<title>Chevere Creations &amp; Studio</title>   
+	<link href="ccs_styles.css" rel="stylesheet" />
+	<link href="Webdevclass_logo_130px.png"  type="image/png" rel="shortcut icon" />
+	<link href="ccs_styles.css" media="only screen and (-webkit-min-device-pixel-ratio: 1.5)" rel="stylesheet" />
+	<link href="ccs_reset.css" media="only screen and (-webkit-min-device-pixel-ratio: 1.5)" rel="stylesheet" />
+</head>	   
+
+<body>
+	<header>	
+	
+	<a href="ccs_home.html"><img width="131" height="125" src="Webdevclass_logo_130px.png" alt="Chevere Creations & Studio" /></a>
+	
+		<nav class="horizontal">
+			<ul>
+			<li> <a href="ccs_home.html">Home</a></li>
+			<li> <a href="ccs_military.html">Military</a></li>
+			<li> <a href="ccs_patriotic.html">Patriotic</a></li>
+			<li> <a href="ccs_terms_n_conditions.html">Terms & Conditions</a></li>
+		  </ul>
+		</nav>
+	</header>
+		
+	<article>
+		<p>
+		</p>
+		<h1>Registration Form</h1>
+		<p>
+		</p>
+		Hello and welcome to <strong>Chevere Creations & Studio</strong>, 
+		we are constantly designing and creating. Register to our <strong>Chevere Creations & Studio Club</strong> and you will receive <em><strong>10% discount</strong></em> on all orders.  As a member, you will also get <em>free customization</em> on your first <em>3 </em>designs.
+		<p>
+	</article>
+	
+<div id="ccs_registration_form" >
+	<!-- M7LO5 Demonstrate the use of a text box in a form/M7LO6 Demonstrate the use of check boxes in a form/M7LO7 Demonstrate the use of radio buttons in a form/Below I created a registration form, with text box, radio button and checkbox that will allow a user to complete the form following the gray examples -->
+	<a class="hiddenanchor" id="toregister"></a>
+	<a class="hiddenanchor" id="tologin"></a>
+	<div id="wrapper">
+		<div id="login" class="animate form">
+			<form  action="mysuperscript.php" autocomplete="on"> 
+				<h1>Member Login</h1> 
+				<p> 
+					<label for="username" class="uname" data-icon="u" > Your email or username </label>
+					<input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com"/>
+				</p>
+				<p> 
+					<label for="password" class="youpasswd" data-icon="p"> Your password </label>
+					<input id="password" name="password" required="required" type="password" placeholder="eg. D4gh$54RJ" /> 
+				</p>
+				<p class="keeplogin"> 
+					<input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+					<label for="loginkeeping">Keep me logged in</label>
+				</p>
+				<p class="login button"> 
+					<input type="submit" value="LOGIN" /> 
+				</p>
+				<p class="change_link">
+					Not a member yet ?
+					<a href="#toregister" class="to_register">Join us</a>
+				</p>
+			</form>
+		</div>
+
+		<div id="register" class="animate form">
+			<form  action="mysuperscript.php" autocomplete="on"> 
+				<h1> Sign up </h1> 
+				<p> 
+					<label for="usernamesignup" class="uname" data-icon="u">Your username</label>
+					<input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="myusername123" />
+				</p>
+				<p> 
+					<label for="emailsignup" class="youmail" data-icon="e" > Your email</label>
+					<input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="mymail@mail.com"/> 
+				</p>
+				<p> 
+					<label for="passwordsignup" class="youpasswd" data-icon="p">Your password </label>
+					<input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. D4gh$54RJ"/>
+				</p>
+				<p> 
+					<label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Please confirm your password </label>
+					<input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. D4gh$54RJ"/>
+				</p>
+				<p class="signin button"> 
+					<input type="submit" value="SIGN UP"/> 
+				</p>
+				<p class="change_link">  
+					Already a member ?
+					<a href="#tologin" class="to_register"> Go and log in </a>
+				</p>
+			</form>
+		</div>
+		
+	</div>
+</div>  
+	
+	<footer>
+	  <address>
+		  <strong>Chevere Creations & Studio &trade; </strong> 1939 Burwell St.&nbsp; Bremerton WA &nbsp; 98337&nbsp; (360)&nbsp;602-2693
+	  </address>
+	</footer>
+</body>
+</html>		
